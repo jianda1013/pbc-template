@@ -29,6 +29,8 @@ RUN wget https://crypto.stanford.edu/pbc/files/pbc-0.5.14.tar.gz && \
     make && \
     make install
 
+ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib 
+
 WORKDIR /usr/src
 
 
