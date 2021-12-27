@@ -1,0 +1,1002 @@
+[
+    {
+        "No": 1,
+        "SetUp": 0.818000,
+        "AuthSetup": 56.552000,
+        "KeyGen": 13.524000,
+        "Encrypt": 27.397000,
+        "Decrypt": 29.026000
+    },
+    {
+        "No": 1,
+        "SetUp": 0.878000,
+        "AuthSetup": 56.436000,
+        "KeyGen": 13.781000,
+        "Encrypt": 27.591000,
+        "Decrypt": 28.980000
+    },
+    {
+        "No": 1,
+        "SetUp": 0.930000,
+        "AuthSetup": 56.869000,
+        "KeyGen": 13.771000,
+        "Encrypt": 27.642000,
+        "Decrypt": 30.850000
+    },
+    {
+        "No": 1,
+        "SetUp": 0.779000,
+        "AuthSetup": 57.498000,
+        "KeyGen": 13.391000,
+        "Encrypt": 27.333000,
+        "Decrypt": 28.576000
+    },
+    {
+        "No": 1,
+        "SetUp": 0.955000,
+        "AuthSetup": 59.327000,
+        "KeyGen": 13.384000,
+        "Encrypt": 27.991000,
+        "Decrypt": 28.821000
+    },
+    {
+        "No": 2,
+        "SetUp": 0.623000,
+        "AuthSetup": 69.158000,
+        "KeyGen": 26.018000,
+        "Encrypt": 27.372000,
+        "Decrypt": 30.043000
+    },
+    {
+        "No": 2,
+        "SetUp": 0.690000,
+        "AuthSetup": 70.832000,
+        "KeyGen": 26.737000,
+        "Encrypt": 27.320000,
+        "Decrypt": 28.398000
+    },
+    {
+        "No": 2,
+        "SetUp": 0.669000,
+        "AuthSetup": 70.733000,
+        "KeyGen": 26.556000,
+        "Encrypt": 27.389000,
+        "Decrypt": 29.527000
+    },
+    {
+        "No": 2,
+        "SetUp": 1.160000,
+        "AuthSetup": 71.107000,
+        "KeyGen": 25.890000,
+        "Encrypt": 27.819000,
+        "Decrypt": 29.291000
+    },
+    {
+        "No": 2,
+        "SetUp": 1.153000,
+        "AuthSetup": 71.367000,
+        "KeyGen": 26.385000,
+        "Encrypt": 28.146000,
+        "Decrypt": 30.333000
+    },
+    {
+        "No": 3,
+        "SetUp": 0.648000,
+        "AuthSetup": 83.154000,
+        "KeyGen": 38.773000,
+        "Encrypt": 27.364000,
+        "Decrypt": 28.685000
+    },
+    {
+        "No": 3,
+        "SetUp": 0.962000,
+        "AuthSetup": 83.873000,
+        "KeyGen": 38.824000,
+        "Encrypt": 27.950000,
+        "Decrypt": 29.094000
+    },
+    {
+        "No": 3,
+        "SetUp": 0.812000,
+        "AuthSetup": 82.843000,
+        "KeyGen": 38.829000,
+        "Encrypt": 27.832000,
+        "Decrypt": 28.756000
+    },
+    {
+        "No": 3,
+        "SetUp": 0.758000,
+        "AuthSetup": 83.888000,
+        "KeyGen": 39.637000,
+        "Encrypt": 27.849000,
+        "Decrypt": 29.583000
+    },
+    {
+        "No": 3,
+        "SetUp": 1.112000,
+        "AuthSetup": 90.856000,
+        "KeyGen": 41.227000,
+        "Encrypt": 27.832000,
+        "Decrypt": 28.805000
+    },
+    {
+        "No": 4,
+        "SetUp": 0.735000,
+        "AuthSetup": 96.395000,
+        "KeyGen": 53.000000,
+        "Encrypt": 27.855000,
+        "Decrypt": 28.899000
+    },
+    {
+        "No": 4,
+        "SetUp": 0.765000,
+        "AuthSetup": 97.461000,
+        "KeyGen": 51.650000,
+        "Encrypt": 27.157000,
+        "Decrypt": 29.041000
+    },
+    {
+        "No": 4,
+        "SetUp": 1.662000,
+        "AuthSetup": 97.135000,
+        "KeyGen": 52.179000,
+        "Encrypt": 27.456000,
+        "Decrypt": 29.073000
+    },
+    {
+        "No": 4,
+        "SetUp": 0.673000,
+        "AuthSetup": 96.732000,
+        "KeyGen": 52.677000,
+        "Encrypt": 27.332000,
+        "Decrypt": 28.584000
+    },
+    {
+        "No": 4,
+        "SetUp": 0.671000,
+        "AuthSetup": 99.332000,
+        "KeyGen": 54.732000,
+        "Encrypt": 29.162000,
+        "Decrypt": 30.683000
+    },
+    {
+        "No": 5,
+        "SetUp": 0.890000,
+        "AuthSetup": 110.025000,
+        "KeyGen": 64.454000,
+        "Encrypt": 27.715000,
+        "Decrypt": 30.989000
+    },
+    {
+        "No": 5,
+        "SetUp": 0.636000,
+        "AuthSetup": 109.643000,
+        "KeyGen": 65.048000,
+        "Encrypt": 28.198000,
+        "Decrypt": 30.486000
+    },
+    {
+        "No": 5,
+        "SetUp": 0.905000,
+        "AuthSetup": 108.913000,
+        "KeyGen": 65.826000,
+        "Encrypt": 28.403000,
+        "Decrypt": 28.700000
+    },
+    {
+        "No": 5,
+        "SetUp": 0.699000,
+        "AuthSetup": 109.407000,
+        "KeyGen": 65.313000,
+        "Encrypt": 28.450000,
+        "Decrypt": 33.048000
+    },
+    {
+        "No": 5,
+        "SetUp": 1.019000,
+        "AuthSetup": 114.421000,
+        "KeyGen": 67.472000,
+        "Encrypt": 28.996000,
+        "Decrypt": 29.434000
+    },
+    {
+        "No": 6,
+        "SetUp": 0.958000,
+        "AuthSetup": 121.942000,
+        "KeyGen": 77.051000,
+        "Encrypt": 28.152000,
+        "Decrypt": 29.346000
+    },
+    {
+        "No": 6,
+        "SetUp": 0.831000,
+        "AuthSetup": 121.980000,
+        "KeyGen": 77.579000,
+        "Encrypt": 28.716000,
+        "Decrypt": 29.981000
+    },
+    {
+        "No": 6,
+        "SetUp": 1.230000,
+        "AuthSetup": 122.660000,
+        "KeyGen": 77.734000,
+        "Encrypt": 28.892000,
+        "Decrypt": 29.471000
+    },
+    {
+        "No": 6,
+        "SetUp": 0.774000,
+        "AuthSetup": 122.936000,
+        "KeyGen": 80.465000,
+        "Encrypt": 29.000000,
+        "Decrypt": 30.347000
+    },
+    {
+        "No": 6,
+        "SetUp": 0.669000,
+        "AuthSetup": 126.284000,
+        "KeyGen": 80.231000,
+        "Encrypt": 28.185000,
+        "Decrypt": 30.006000
+    },
+    {
+        "No": 7,
+        "SetUp": 1.120000,
+        "AuthSetup": 136.815000,
+        "KeyGen": 92.719000,
+        "Encrypt": 28.463000,
+        "Decrypt": 32.414000
+    },
+    {
+        "No": 7,
+        "SetUp": 0.761000,
+        "AuthSetup": 138.294000,
+        "KeyGen": 91.228000,
+        "Encrypt": 28.206000,
+        "Decrypt": 29.958000
+    },
+    {
+        "No": 7,
+        "SetUp": 0.819000,
+        "AuthSetup": 135.802000,
+        "KeyGen": 91.571000,
+        "Encrypt": 28.127000,
+        "Decrypt": 29.742000
+    },
+    {
+        "No": 7,
+        "SetUp": 2.749000,
+        "AuthSetup": 142.101000,
+        "KeyGen": 96.553000,
+        "Encrypt": 33.141000,
+        "Decrypt": 30.248000
+    },
+    {
+        "No": 7,
+        "SetUp": 0.970000,
+        "AuthSetup": 137.872000,
+        "KeyGen": 92.521000,
+        "Encrypt": 35.456000,
+        "Decrypt": 34.130000
+    },
+    {
+        "No": 8,
+        "SetUp": 0.904000,
+        "AuthSetup": 154.050000,
+        "KeyGen": 108.476000,
+        "Encrypt": 29.669000,
+        "Decrypt": 30.400000
+    },
+    {
+        "No": 8,
+        "SetUp": 0.981000,
+        "AuthSetup": 149.359000,
+        "KeyGen": 103.614000,
+        "Encrypt": 28.591000,
+        "Decrypt": 29.230000
+    },
+    {
+        "No": 8,
+        "SetUp": 0.713000,
+        "AuthSetup": 148.268000,
+        "KeyGen": 103.514000,
+        "Encrypt": 28.735000,
+        "Decrypt": 29.884000
+    },
+    {
+        "No": 8,
+        "SetUp": 0.637000,
+        "AuthSetup": 152.696000,
+        "KeyGen": 110.083000,
+        "Encrypt": 29.705000,
+        "Decrypt": 30.106000
+    },
+    {
+        "No": 8,
+        "SetUp": 0.695000,
+        "AuthSetup": 151.214000,
+        "KeyGen": 105.611000,
+        "Encrypt": 28.178000,
+        "Decrypt": 29.695000
+    },
+    {
+        "No": 9,
+        "SetUp": 0.635000,
+        "AuthSetup": 162.471000,
+        "KeyGen": 116.468000,
+        "Encrypt": 28.133000,
+        "Decrypt": 29.795000
+    },
+    {
+        "No": 9,
+        "SetUp": 0.951000,
+        "AuthSetup": 162.929000,
+        "KeyGen": 117.773000,
+        "Encrypt": 28.451000,
+        "Decrypt": 29.143000
+    },
+    {
+        "No": 9,
+        "SetUp": 0.825000,
+        "AuthSetup": 162.152000,
+        "KeyGen": 115.764000,
+        "Encrypt": 29.043000,
+        "Decrypt": 30.054000
+    },
+    {
+        "No": 9,
+        "SetUp": 0.752000,
+        "AuthSetup": 163.402000,
+        "KeyGen": 120.565000,
+        "Encrypt": 29.785000,
+        "Decrypt": 30.945000
+    },
+    {
+        "No": 9,
+        "SetUp": 1.307000,
+        "AuthSetup": 163.147000,
+        "KeyGen": 117.798000,
+        "Encrypt": 34.124000,
+        "Decrypt": 37.883000
+    },
+    {
+        "No": 10,
+        "SetUp": 0.727000,
+        "AuthSetup": 174.493000,
+        "KeyGen": 130.846000,
+        "Encrypt": 28.686000,
+        "Decrypt": 29.964000
+    },
+    {
+        "No": 10,
+        "SetUp": 1.159000,
+        "AuthSetup": 185.303000,
+        "KeyGen": 133.946000,
+        "Encrypt": 30.705000,
+        "Decrypt": 32.825000
+    },
+    {
+        "No": 10,
+        "SetUp": 0.696000,
+        "AuthSetup": 175.631000,
+        "KeyGen": 129.814000,
+        "Encrypt": 28.732000,
+        "Decrypt": 29.742000
+    },
+    {
+        "No": 10,
+        "SetUp": 0.650000,
+        "AuthSetup": 174.698000,
+        "KeyGen": 131.103000,
+        "Encrypt": 29.166000,
+        "Decrypt": 30.254000
+    },
+    {
+        "No": 10,
+        "SetUp": 0.672000,
+        "AuthSetup": 178.254000,
+        "KeyGen": 134.459000,
+        "Encrypt": 29.598000,
+        "Decrypt": 30.798000
+    },
+    {
+        "No": 11,
+        "SetUp": 0.730000,
+        "AuthSetup": 191.402000,
+        "KeyGen": 144.234000,
+        "Encrypt": 28.986000,
+        "Decrypt": 29.736000
+    },
+    {
+        "No": 11,
+        "SetUp": 0.812000,
+        "AuthSetup": 188.748000,
+        "KeyGen": 143.922000,
+        "Encrypt": 28.774000,
+        "Decrypt": 31.242000
+    },
+    {
+        "No": 11,
+        "SetUp": 0.832000,
+        "AuthSetup": 189.971000,
+        "KeyGen": 143.878000,
+        "Encrypt": 29.329000,
+        "Decrypt": 31.599000
+    },
+    {
+        "No": 11,
+        "SetUp": 0.990000,
+        "AuthSetup": 190.026000,
+        "KeyGen": 142.844000,
+        "Encrypt": 29.194000,
+        "Decrypt": 29.480000
+    },
+    {
+        "No": 11,
+        "SetUp": 0.609000,
+        "AuthSetup": 191.782000,
+        "KeyGen": 147.792000,
+        "Encrypt": 29.643000,
+        "Decrypt": 30.541000
+    },
+    {
+        "No": 12,
+        "SetUp": 0.809000,
+        "AuthSetup": 202.355000,
+        "KeyGen": 157.648000,
+        "Encrypt": 30.578000,
+        "Decrypt": 30.672000
+    },
+    {
+        "No": 12,
+        "SetUp": 0.681000,
+        "AuthSetup": 201.638000,
+        "KeyGen": 154.453000,
+        "Encrypt": 28.893000,
+        "Decrypt": 30.714000
+    },
+    {
+        "No": 12,
+        "SetUp": 0.688000,
+        "AuthSetup": 210.107000,
+        "KeyGen": 156.509000,
+        "Encrypt": 32.257000,
+        "Decrypt": 32.750000
+    },
+    {
+        "No": 12,
+        "SetUp": 0.939000,
+        "AuthSetup": 200.286000,
+        "KeyGen": 156.745000,
+        "Encrypt": 30.246000,
+        "Decrypt": 30.495000
+    },
+    {
+        "No": 12,
+        "SetUp": 0.916000,
+        "AuthSetup": 210.222000,
+        "KeyGen": 157.740000,
+        "Encrypt": 29.975000,
+        "Decrypt": 31.189000
+    },
+    {
+        "No": 13,
+        "SetUp": 1.256000,
+        "AuthSetup": 215.516000,
+        "KeyGen": 168.519000,
+        "Encrypt": 29.402000,
+        "Decrypt": 30.398000
+    },
+    {
+        "No": 13,
+        "SetUp": 0.743000,
+        "AuthSetup": 217.805000,
+        "KeyGen": 169.427000,
+        "Encrypt": 30.108000,
+        "Decrypt": 30.068000
+    },
+    {
+        "No": 13,
+        "SetUp": 1.286000,
+        "AuthSetup": 225.339000,
+        "KeyGen": 170.194000,
+        "Encrypt": 29.603000,
+        "Decrypt": 30.598000
+    },
+    {
+        "No": 13,
+        "SetUp": 0.968000,
+        "AuthSetup": 218.358000,
+        "KeyGen": 172.165000,
+        "Encrypt": 29.797000,
+        "Decrypt": 31.539000
+    },
+    {
+        "No": 13,
+        "SetUp": 0.829000,
+        "AuthSetup": 222.118000,
+        "KeyGen": 171.144000,
+        "Encrypt": 30.113000,
+        "Decrypt": 30.854000
+    },
+    {
+        "No": 14,
+        "SetUp": 1.119000,
+        "AuthSetup": 231.109000,
+        "KeyGen": 180.885000,
+        "Encrypt": 30.462000,
+        "Decrypt": 31.639000
+    },
+    {
+        "No": 14,
+        "SetUp": 0.969000,
+        "AuthSetup": 229.757000,
+        "KeyGen": 180.448000,
+        "Encrypt": 30.652000,
+        "Decrypt": 31.681000
+    },
+    {
+        "No": 14,
+        "SetUp": 0.648000,
+        "AuthSetup": 231.589000,
+        "KeyGen": 179.051000,
+        "Encrypt": 30.330000,
+        "Decrypt": 31.281000
+    },
+    {
+        "No": 14,
+        "SetUp": 0.759000,
+        "AuthSetup": 230.551000,
+        "KeyGen": 185.824000,
+        "Encrypt": 30.808000,
+        "Decrypt": 32.832000
+    },
+    {
+        "No": 14,
+        "SetUp": 0.690000,
+        "AuthSetup": 228.433000,
+        "KeyGen": 184.612000,
+        "Encrypt": 30.481000,
+        "Decrypt": 31.473000
+    },
+    {
+        "No": 15,
+        "SetUp": 0.687000,
+        "AuthSetup": 247.123000,
+        "KeyGen": 194.974000,
+        "Encrypt": 31.498000,
+        "Decrypt": 31.507000
+    },
+    {
+        "No": 15,
+        "SetUp": 0.826000,
+        "AuthSetup": 241.912000,
+        "KeyGen": 194.654000,
+        "Encrypt": 29.805000,
+        "Decrypt": 31.735000
+    },
+    {
+        "No": 15,
+        "SetUp": 0.706000,
+        "AuthSetup": 247.325000,
+        "KeyGen": 197.129000,
+        "Encrypt": 31.984000,
+        "Decrypt": 33.013000
+    },
+    {
+        "No": 15,
+        "SetUp": 1.480000,
+        "AuthSetup": 242.189000,
+        "KeyGen": 199.326000,
+        "Encrypt": 31.166000,
+        "Decrypt": 31.558000
+    },
+    {
+        "No": 15,
+        "SetUp": 0.624000,
+        "AuthSetup": 252.339000,
+        "KeyGen": 196.320000,
+        "Encrypt": 31.796000,
+        "Decrypt": 31.320000
+    },
+    {
+        "No": 16,
+        "SetUp": 0.817000,
+        "AuthSetup": 254.485000,
+        "KeyGen": 210.409000,
+        "Encrypt": 30.993000,
+        "Decrypt": 31.661000
+    },
+    {
+        "No": 16,
+        "SetUp": 0.689000,
+        "AuthSetup": 255.094000,
+        "KeyGen": 207.518000,
+        "Encrypt": 31.178000,
+        "Decrypt": 31.953000
+    },
+    {
+        "No": 16,
+        "SetUp": 0.814000,
+        "AuthSetup": 253.602000,
+        "KeyGen": 210.170000,
+        "Encrypt": 30.348000,
+        "Decrypt": 31.281000
+    },
+    {
+        "No": 16,
+        "SetUp": 1.040000,
+        "AuthSetup": 260.213000,
+        "KeyGen": 209.706000,
+        "Encrypt": 31.612000,
+        "Decrypt": 32.407000
+    },
+    {
+        "No": 16,
+        "SetUp": 0.666000,
+        "AuthSetup": 268.155000,
+        "KeyGen": 209.596000,
+        "Encrypt": 31.677000,
+        "Decrypt": 33.144000
+    },
+    {
+        "No": 17,
+        "SetUp": 0.802000,
+        "AuthSetup": 274.631000,
+        "KeyGen": 222.556000,
+        "Encrypt": 31.415000,
+        "Decrypt": 32.042000
+    },
+    {
+        "No": 17,
+        "SetUp": 1.251000,
+        "AuthSetup": 267.961000,
+        "KeyGen": 218.980000,
+        "Encrypt": 31.670000,
+        "Decrypt": 32.666000
+    },
+    {
+        "No": 17,
+        "SetUp": 0.855000,
+        "AuthSetup": 269.703000,
+        "KeyGen": 220.545000,
+        "Encrypt": 30.761000,
+        "Decrypt": 31.796000
+    },
+    {
+        "No": 17,
+        "SetUp": 0.752000,
+        "AuthSetup": 269.171000,
+        "KeyGen": 225.651000,
+        "Encrypt": 30.796000,
+        "Decrypt": 31.313000
+    },
+    {
+        "No": 17,
+        "SetUp": 0.639000,
+        "AuthSetup": 277.195000,
+        "KeyGen": 225.614000,
+        "Encrypt": 32.033000,
+        "Decrypt": 33.536000
+    },
+    {
+        "No": 18,
+        "SetUp": 0.704000,
+        "AuthSetup": 280.526000,
+        "KeyGen": 232.130000,
+        "Encrypt": 31.424000,
+        "Decrypt": 33.212000
+    },
+    {
+        "No": 18,
+        "SetUp": 0.663000,
+        "AuthSetup": 293.426000,
+        "KeyGen": 236.057000,
+        "Encrypt": 32.322000,
+        "Decrypt": 32.708000
+    },
+    {
+        "No": 18,
+        "SetUp": 0.857000,
+        "AuthSetup": 280.908000,
+        "KeyGen": 231.851000,
+        "Encrypt": 31.099000,
+        "Decrypt": 32.058000
+    },
+    {
+        "No": 18,
+        "SetUp": 0.836000,
+        "AuthSetup": 281.669000,
+        "KeyGen": 235.656000,
+        "Encrypt": 32.256000,
+        "Decrypt": 33.190000
+    },
+    {
+        "No": 18,
+        "SetUp": 0.843000,
+        "AuthSetup": 289.580000,
+        "KeyGen": 235.264000,
+        "Encrypt": 31.813000,
+        "Decrypt": 32.509000
+    },
+    {
+        "No": 19,
+        "SetUp": 0.643000,
+        "AuthSetup": 295.289000,
+        "KeyGen": 248.838000,
+        "Encrypt": 32.572000,
+        "Decrypt": 33.708000
+    },
+    {
+        "No": 19,
+        "SetUp": 0.778000,
+        "AuthSetup": 312.855000,
+        "KeyGen": 252.038000,
+        "Encrypt": 32.736000,
+        "Decrypt": 34.347000
+    },
+    {
+        "No": 19,
+        "SetUp": 0.737000,
+        "AuthSetup": 307.682000,
+        "KeyGen": 248.227000,
+        "Encrypt": 31.695000,
+        "Decrypt": 32.456000
+    },
+    {
+        "No": 19,
+        "SetUp": 0.692000,
+        "AuthSetup": 303.741000,
+        "KeyGen": 250.279000,
+        "Encrypt": 32.424000,
+        "Decrypt": 33.408000
+    },
+    {
+        "No": 19,
+        "SetUp": 0.850000,
+        "AuthSetup": 294.226000,
+        "KeyGen": 244.524000,
+        "Encrypt": 32.351000,
+        "Decrypt": 32.127000
+    },
+    {
+        "No": 20,
+        "SetUp": 0.694000,
+        "AuthSetup": 306.812000,
+        "KeyGen": 257.110000,
+        "Encrypt": 32.619000,
+        "Decrypt": 32.949000
+    },
+    {
+        "No": 20,
+        "SetUp": 0.667000,
+        "AuthSetup": 318.401000,
+        "KeyGen": 261.396000,
+        "Encrypt": 32.442000,
+        "Decrypt": 33.709000
+    },
+    {
+        "No": 20,
+        "SetUp": 0.671000,
+        "AuthSetup": 317.819000,
+        "KeyGen": 257.984000,
+        "Encrypt": 32.585000,
+        "Decrypt": 32.123000
+    },
+    {
+        "No": 20,
+        "SetUp": 0.633000,
+        "AuthSetup": 306.952000,
+        "KeyGen": 256.770000,
+        "Encrypt": 33.176000,
+        "Decrypt": 32.816000
+    },
+    {
+        "No": 20,
+        "SetUp": 0.729000,
+        "AuthSetup": 308.001000,
+        "KeyGen": 257.933000,
+        "Encrypt": 32.962000,
+        "Decrypt": 33.171000
+    },
+    {
+        "No": 21,
+        "SetUp": 1.107000,
+        "AuthSetup": 328.669000,
+        "KeyGen": 270.693000,
+        "Encrypt": 33.526000,
+        "Decrypt": 34.544000
+    },
+    {
+        "No": 21,
+        "SetUp": 0.685000,
+        "AuthSetup": 325.537000,
+        "KeyGen": 270.839000,
+        "Encrypt": 32.896000,
+        "Decrypt": 33.203000
+    },
+    {
+        "No": 21,
+        "SetUp": 0.667000,
+        "AuthSetup": 325.053000,
+        "KeyGen": 268.377000,
+        "Encrypt": 34.424000,
+        "Decrypt": 35.316000
+    },
+    {
+        "No": 21,
+        "SetUp": 0.604000,
+        "AuthSetup": 320.884000,
+        "KeyGen": 269.837000,
+        "Encrypt": 32.785000,
+        "Decrypt": 33.856000
+    },
+    {
+        "No": 21,
+        "SetUp": 0.752000,
+        "AuthSetup": 334.111000,
+        "KeyGen": 274.768000,
+        "Encrypt": 33.977000,
+        "Decrypt": 34.275000
+    },
+    {
+        "No": 22,
+        "SetUp": 0.757000,
+        "AuthSetup": 338.262000,
+        "KeyGen": 287.468000,
+        "Encrypt": 33.646000,
+        "Decrypt": 34.483000
+    },
+    {
+        "No": 22,
+        "SetUp": 1.248000,
+        "AuthSetup": 341.167000,
+        "KeyGen": 285.547000,
+        "Encrypt": 33.249000,
+        "Decrypt": 33.797000
+    },
+    {
+        "No": 22,
+        "SetUp": 0.881000,
+        "AuthSetup": 338.268000,
+        "KeyGen": 286.779000,
+        "Encrypt": 33.776000,
+        "Decrypt": 33.844000
+    },
+    {
+        "No": 22,
+        "SetUp": 0.905000,
+        "AuthSetup": 337.753000,
+        "KeyGen": 284.129000,
+        "Encrypt": 33.442000,
+        "Decrypt": 34.228000
+    },
+    {
+        "No": 22,
+        "SetUp": 0.832000,
+        "AuthSetup": 335.680000,
+        "KeyGen": 288.710000,
+        "Encrypt": 34.411000,
+        "Decrypt": 34.418000
+    },
+    {
+        "No": 23,
+        "SetUp": 0.779000,
+        "AuthSetup": 355.276000,
+        "KeyGen": 297.515000,
+        "Encrypt": 34.763000,
+        "Decrypt": 34.850000
+    },
+    {
+        "No": 23,
+        "SetUp": 1.010000,
+        "AuthSetup": 344.184000,
+        "KeyGen": 297.541000,
+        "Encrypt": 34.094000,
+        "Decrypt": 34.581000
+    },
+    {
+        "No": 23,
+        "SetUp": 0.822000,
+        "AuthSetup": 357.823000,
+        "KeyGen": 298.517000,
+        "Encrypt": 33.843000,
+        "Decrypt": 34.221000
+    },
+    {
+        "No": 23,
+        "SetUp": 0.832000,
+        "AuthSetup": 364.947000,
+        "KeyGen": 296.290000,
+        "Encrypt": 34.703000,
+        "Decrypt": 34.375000
+    },
+    {
+        "No": 23,
+        "SetUp": 0.831000,
+        "AuthSetup": 355.938000,
+        "KeyGen": 299.621000,
+        "Encrypt": 35.079000,
+        "Decrypt": 34.901000
+    },
+    {
+        "No": 24,
+        "SetUp": 0.906000,
+        "AuthSetup": 363.101000,
+        "KeyGen": 308.735000,
+        "Encrypt": 34.404000,
+        "Decrypt": 35.447000
+    },
+    {
+        "No": 24,
+        "SetUp": 0.683000,
+        "AuthSetup": 354.622000,
+        "KeyGen": 313.466000,
+        "Encrypt": 34.173000,
+        "Decrypt": 34.485000
+    },
+    {
+        "No": 24,
+        "SetUp": 0.684000,
+        "AuthSetup": 361.039000,
+        "KeyGen": 309.400000,
+        "Encrypt": 34.230000,
+        "Decrypt": 34.831000
+    },
+    {
+        "No": 24,
+        "SetUp": 1.048000,
+        "AuthSetup": 371.051000,
+        "KeyGen": 310.565000,
+        "Encrypt": 34.384000,
+        "Decrypt": 34.372000
+    },
+    {
+        "No": 24,
+        "SetUp": 0.692000,
+        "AuthSetup": 362.494000,
+        "KeyGen": 308.510000,
+        "Encrypt": 35.092000,
+        "Decrypt": 34.537000
+    },
+    {
+        "No": 25,
+        "SetUp": 0.812000,
+        "AuthSetup": 375.161000,
+        "KeyGen": 323.225000,
+        "Encrypt": 34.565000,
+        "Decrypt": 35.071000
+    },
+    {
+        "No": 25,
+        "SetUp": 0.827000,
+        "AuthSetup": 376.168000,
+        "KeyGen": 323.417000,
+        "Encrypt": 34.687000,
+        "Decrypt": 34.919000
+    },
+    {
+        "No": 25,
+        "SetUp": 0.785000,
+        "AuthSetup": 373.394000,
+        "KeyGen": 322.216000,
+        "Encrypt": 34.846000,
+        "Decrypt": 36.143000
+    },
+    {
+        "No": 25,
+        "SetUp": 0.622000,
+        "AuthSetup": 373.251000,
+        "KeyGen": 322.464000,
+        "Encrypt": 36.419000,
+        "Decrypt": 35.713000
+    },
+    {
+        "No": 25,
+        "SetUp": 0.677000,
+        "AuthSetup": 374.537000,
+        "KeyGen": 323.615000,
+        "Encrypt": 36.009000,
+        "Decrypt": 35.878000
+    }
+]

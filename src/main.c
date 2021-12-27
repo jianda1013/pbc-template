@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 #include "pbc/pbc.h"
 
-#define AUTHORITY_NUMBER 10
-#define LENGTH 10
+#define AUTHORITY_NUMBER 25
+#define LENGTH 25
 
 typedef struct {
     element_t g_alpha[LENGTH + 1];  //  G1[]
@@ -141,60 +142,90 @@ CTEXT encrypt(element_t g, PK** pk, element_t msg, int* vector_y) {
     return ciphertext;
 }
 
-int decrypt(SK* sk, CTEXT C, int* vector_y) {
-    element_t upper_left, upper;
+void decrypt(SK* sk, CTEXT C, int* vector_y, element_t result) {
+    element_t upper_left, upper, bottom;
     element_init_G1(upper_left, pairing);
     element_init_GT(upper, pairing);
+    element_init_GT(bottom, pairing);
     element_set(upper_left, sk[0].D1);
     for (int i = 1; i < AUTHORITY_NUMBER; i++)
         element_mul(upper_left, upper_left, sk[i].D1);
     for (int i = 2; i < LENGTH; i++) {
         element_t base;
         element_init_G1(base, pairing);
-        element_printf("%d, %B\n", i, sk[i].D0);
-        // element_set(base, sk[i].K[2]);
-        // for (int j = 1; j < AUTHORITY_NUMBER; j++)
-        //     element_mul(base, base, sk[i].K[j]);
-        // element_t y;
-        // element_init_Zr(y, pairing);
-        // element_set_si(y, vector_y[i - 1]);
-        // element_pow_zn(base, base, y);
-        // element_mul(upper_left, upper_left, base);
-        // element_clear(base);
-        // element_clear(y);
+        element_set(base, sk[i].K[2]);
+        for (int j = 3; j < AUTHORITY_NUMBER; j++)
+            element_mul(base, base, sk[i].K[j]);
+        element_t y;
+        element_init_Zr(y, pairing);
+        element_set_si(y, vector_y[i - 1]);
+        element_pow_zn(base, base, y);
+        element_mul(upper_left, upper_left, base);
+        element_clear(base);
+        element_clear(y);
     }
-    element_printf("%B", upper_left);
-    // element_pairing(upper, )
+    element_pairing(upper, upper_left, C.E2);
+    element_pairing(bottom, C.E1, sk[0].D0);
+    element_div(result, upper, bottom);
+    return;
 }
 
 int main(int argc, char const* argv[]) {
+    clock_t now, end;
     char param[1024];
     size_t count = fread(param, 1, 1024, stdin);
     if (!count)
         return 1;
     pairing_init_set_buf(pairing, param, count);
-
     element_t g;
+    printf("{\"No\": %d, \n", AUTHORITY_NUMBER);
+    now = clock();
     element_init_G1(g, pairing);  //
     element_random(g);            // init g
+    end = clock();
+    printf("\"SetUp\": %f,\n", (double)(end - now) / CLOCKS_PER_SEC * 1000);
 
     for (int i = 0; i < AUTHORITY_NUMBER; i++)
-        AuthSetup(g, i);
+        if (i == 0) {
+            now = clock();
+            AuthSetup(g, i);
+            end = clock();
+            printf("\"AuthSetup\": %f,\n", (double)(end - now) / CLOCKS_PER_SEC * 1000);
+        } else
+            AuthSetup(g, i);
 
     int vector[LENGTH];
-    int X[] = {5, 10, 13, 16, 17, 3, 5, 10, 11, 4};
-    for (int i = 0; i < AUTHORITY_NUMBER; i++)
-        user_secret_key[i] = KeyGen(g, authorize[i].master_secret_key, "test", X);
+    int X[] = {5, 10, 13, 16, 17,
+               3, 5, 10, 11, 4,
+               16, 14, 44, 2, 4,
+               6, 4, 12, 33, 41,
+               57, 25, 26, 13, 45,
+               23, 14, 17, 3, 4};
+    for (int i = 0; i < AUTHORITY_NUMBER; i++) {
+        if (i == 0) {
+            now = clock();
+            user_secret_key[i] = KeyGen(g, authorize[i].master_secret_key, "test", X);
+            end = clock();
+            printf("\"KeyGen\": %f,\n", (double)(end - now) / CLOCKS_PER_SEC * 1000);
+        } else
+            user_secret_key[i] = KeyGen(g, authorize[i].master_secret_key, "test", X);
+    }
 
     PK* public_key_arr[AUTHORITY_NUMBER];
     for (int i = 0; i < AUTHORITY_NUMBER; i++)
         public_key_arr[i] = &authorize[i].public_key;
-    element_t rdM;
+    element_t rdM, result;
     element_init_GT(rdM, pairing);
+    element_init_GT(result, pairing);
     element_random(rdM);
+    now = clock();
     CTEXT cypher_text = encrypt(g, public_key_arr, rdM, X);
-
-    decrypt(user_secret_key, cypher_text, X);
+    end = clock();
+    printf("\"Encrypt\": %f,\n", (double)(end - now) / CLOCKS_PER_SEC * 1000);
+    now = clock();
+    decrypt(user_secret_key, cypher_text, X, result);
+    end = clock();
+    printf("\"Decrypt\": %f},\n", (double)(end - now) / CLOCKS_PER_SEC * 1000);
 
     return 0;
 }
