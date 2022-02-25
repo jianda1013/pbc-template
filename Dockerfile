@@ -31,6 +31,10 @@ RUN wget https://crypto.stanford.edu/pbc/files/pbc-0.5.14.tar.gz && \
 
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib 
 
+RUN echo 'alias build="gcc main.c -L. -lpbc -lgmp -I /usr/local/include/pbc"' >> ~/.bashrc
+RUN echo 'alias debug="gcc --DEBUG main.c -L. -lpbc -lgmp -I /usr/local/include/pbc"' >> ~/.bashrc
+RUN echo 'alias run="./a.out < /usr/etc/pbc-0.5.14/param/a.param"' >> ~/.bashrc
+
 WORKDIR /usr/src
 
 
