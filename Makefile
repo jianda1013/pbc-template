@@ -1,9 +1,7 @@
 DC=docker-compose
 CT=vm
 
-all: run
-
-run: start exec
+all: start exec
 
 start: 
 	$(DC) up -d --build
