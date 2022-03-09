@@ -1,4 +1,5 @@
 #include <pbc.h>
+#include "pbcExtend.h"
 
 int main(int argc, char const* argv[]) {
     // ************************************* //
